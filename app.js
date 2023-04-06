@@ -14,7 +14,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://nbartulov:Volutrab3.Atla@cluster0.krbvlwc.mongodb.net/todolistDB");
+mongoose.connect("mongodb+srv://nbartulov:test1234@cluster0.krbvlwc.mongodb.net/todolistDB");
 
 //Mongoose Schemas
 const itemsSchema = new mongoose.Schema({
